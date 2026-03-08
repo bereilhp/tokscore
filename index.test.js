@@ -46,7 +46,6 @@ test('removes punctuation', () => {
 
 test('calculates partial match correctly', () => {
   const result = compare("hello world foo", "hello world");
-  console.log(result);
   assert.strictEqual(result.precision, 1);
   assert.strictEqual(result.recall, 0.667);
   assert.strictEqual(result.f1, 0.8);
