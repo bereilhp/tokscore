@@ -1,0 +1,21 @@
+{
+  "name": "tokscore",
+  "version": "1.0.0",
+  "description": "Token-level precision, recall and F1 for text comparisons.",
+  "keywords": ["text", "comparison", "similarity", "precision", "recall", "f1", "token", "nlp", "score"],
+  "homepage": "https://github.com/bereilhp/tokscore#readme",
+  "bugs": {
+    "url": "https://github.com/bereilhp/tokscore/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bereilhp/tokscore.git"
+  },
+  "license": "MIT",
+  "author": "bereilhp",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  }
+}
